@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "lerna run build",
+    "startTime": "2024-01-30T16:10:52.860Z",
+    "endTime": "2024-01-30T16:10:59.805Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "components:build",
+      "target": "build",
+      "projectName": "components",
+      "hash": "14917880096667103896",
+      "startTime": "2024-01-30T16:10:52.872Z",
+      "endTime": "2024-01-30T16:10:56.144Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "test-app:build",
+      "target": "build",
+      "projectName": "test-app",
+      "hash": "9234995783103373749",
+      "startTime": "2024-01-30T16:10:56.147Z",
+      "endTime": "2024-01-30T16:10:59.804Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

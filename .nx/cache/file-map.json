@@ -1,0 +1,269 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.3.0",
+  "deps": {
+    "lerna": "^8.0.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "nx.json",
+        "hash": "16178097230330161632"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "2272592440814165956"
+      },
+      {
+        "file": "package.json",
+        "hash": "6487976495970925426"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8587836968507943632"
+      }
+    ],
+    "projectFileMap": {
+      "components": [
+        {
+          "file": "packages/components/.storybook/main.ts",
+          "hash": "4366588104559198336"
+        },
+        {
+          "file": "packages/components/.storybook/preview.ts",
+          "hash": "891793129292663892"
+        },
+        {
+          "file": "packages/components/package.json",
+          "hash": "7551686950467199058",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@fontsource/material-icons",
+            "npm:@fontsource/roboto",
+            "npm:@mui/icons-material",
+            "npm:@mui/material",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/react",
+            "npm:jest",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rollup",
+            "npm:rollup-plugin-typescript2",
+            "npm:ts-jest",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:@storybook/addon-essentials",
+            "npm:@storybook/addon-interactions",
+            "npm:@storybook/addon-links",
+            "npm:@storybook/addon-onboarding",
+            "npm:@storybook/addon-themes",
+            "npm:@storybook/blocks",
+            "npm:@storybook/react",
+            "npm:@storybook/react-vite",
+            "npm:@storybook/test",
+            "npm:rimraf",
+            "npm:storybook"
+          ]
+        },
+        {
+          "file": "packages/components/rollup.config.js",
+          "hash": "13664694034217690045"
+        },
+        {
+          "file": "packages/components/src/index.tsx",
+          "hash": "3591232326178457673"
+        },
+        {
+          "file": "packages/components/src/stories/Button.stories.ts",
+          "hash": "3323375596800536938"
+        },
+        {
+          "file": "packages/components/src/stories/Configure.mdx",
+          "hash": "9165265778959664387"
+        },
+        {
+          "file": "packages/components/src/stories/assets/accessibility.png",
+          "hash": "8320090732909952534"
+        },
+        {
+          "file": "packages/components/src/stories/assets/accessibility.svg",
+          "hash": "15602003233623176060"
+        },
+        {
+          "file": "packages/components/src/stories/assets/addon-library.png",
+          "hash": "16374768047356923990"
+        },
+        {
+          "file": "packages/components/src/stories/assets/assets.png",
+          "hash": "1689741917386238418"
+        },
+        {
+          "file": "packages/components/src/stories/assets/avif-test-image.avif",
+          "hash": "4094029619605446073"
+        },
+        {
+          "file": "packages/components/src/stories/assets/context.png",
+          "hash": "1348985643342670004"
+        },
+        {
+          "file": "packages/components/src/stories/assets/discord.svg",
+          "hash": "6125630960371971211"
+        },
+        {
+          "file": "packages/components/src/stories/assets/docs.png",
+          "hash": "18280049778802555454"
+        },
+        {
+          "file": "packages/components/src/stories/assets/figma-plugin.png",
+          "hash": "6723570263244528263"
+        },
+        {
+          "file": "packages/components/src/stories/assets/github.svg",
+          "hash": "2312545202508444152"
+        },
+        {
+          "file": "packages/components/src/stories/assets/share.png",
+          "hash": "2975175390326490054"
+        },
+        {
+          "file": "packages/components/src/stories/assets/styling.png",
+          "hash": "7588361746934983524"
+        },
+        {
+          "file": "packages/components/src/stories/assets/testing.png",
+          "hash": "9937432921968504604"
+        },
+        {
+          "file": "packages/components/src/stories/assets/theming.png",
+          "hash": "10878554446503237882"
+        },
+        {
+          "file": "packages/components/src/stories/assets/tutorials.svg",
+          "hash": "6526954541826200653"
+        },
+        {
+          "file": "packages/components/src/stories/assets/youtube.svg",
+          "hash": "14842170009963527645"
+        },
+        {
+          "file": "packages/components/src/theme.ts",
+          "hash": "10914203568448290948"
+        },
+        {
+          "file": "packages/components/tsconfig.json",
+          "hash": "13028434561161044258"
+        },
+        {
+          "file": "packages/components/tsconfig.lib.json",
+          "hash": "12065603132550339980"
+        },
+        {
+          "file": "packages/components/tsconfig.spec.json",
+          "hash": "11629048680882006465"
+        },
+        {
+          "file": "packages/components/dist/index.js",
+          "hash": "14220355741403355251"
+        },
+        {
+          "file": "packages/components/dist/index.d.ts",
+          "hash": "11573083788461291884"
+        },
+        {
+          "file": "packages/components/dist/theme.d.ts",
+          "hash": "15375751616837728557"
+        }
+      ],
+      "test-app": [
+        {
+          "file": "packages/test-app/.eslintrc.cjs",
+          "hash": "18224317155734308275"
+        },
+        {
+          "file": "packages/test-app/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "packages/test-app/README.md",
+          "hash": "11460966644741158790"
+        },
+        {
+          "file": "packages/test-app/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "packages/test-app/package.json",
+          "hash": "15610651731999438122",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@fontsource/material-icons",
+            "npm:@fontsource/roboto",
+            "npm:@mui/material",
+            "components",
+            "npm:react",
+            "npm:react-dom",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vitejs/plugin-react",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:typescript",
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "packages/test-app/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "packages/test-app/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "packages/test-app/src/App.tsx",
+          "hash": "13707275588333934374"
+        },
+        {
+          "file": "packages/test-app/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "packages/test-app/src/index.css",
+          "hash": "957896817323665666"
+        },
+        {
+          "file": "packages/test-app/src/main.tsx",
+          "hash": "12948679595907665671"
+        },
+        {
+          "file": "packages/test-app/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "packages/test-app/tsconfig.json",
+          "hash": "2281987281900638267"
+        },
+        {
+          "file": "packages/test-app/tsconfig.node.json",
+          "hash": "8586866767247417612"
+        },
+        {
+          "file": "packages/test-app/vite.config.ts",
+          "hash": "7008402861428644331"
+        }
+      ]
+    }
+  }
+}

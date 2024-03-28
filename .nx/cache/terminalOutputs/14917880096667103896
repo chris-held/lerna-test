@@ -1,0 +1,11 @@
+
+^D
+> components@0.0.1 build
+> rimraf dist && rollup --config
+
+[36m
+[1msrc/index.tsx[22m → [1mdist[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/guide/en/#warning-treating-module-as-external-dependency[39m
+[1m@mui/material[22m (imported by src/index.tsx, src/theme.ts)
+[32mcreated [1mdist[22m in [1m2s[22m[39m

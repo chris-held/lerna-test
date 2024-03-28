@@ -1,0 +1,29 @@
+
+^D
+> components@0.0.1 build
+> rimraf dist && rollup --config
+
+[36m
+[1msrc/index.tsx[22m → [1mdist[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/guide/en/#warning-treating-module-as-external-dependency[39m
+[1m@mui/material[22m (imported by src/index.tsx, src/theme.ts)
+[1m[31m[!] [1mError: You must specify "output.format", which can be one of "amd", "cjs", "system", "es", "iife" or "umd".[22m[1m[39m[22m
+[36mhttps://rollupjs.org/guide/en/#outputformat[39m
+[2mError: You must specify "output.format", which can be one of "amd", "cjs", "system", "es", "iife" or "umd".
+    at error (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at getFormat (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/shared/rollup.js:23555:20)
+    at normalizeOutputOptions (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/shared/rollup.js:23467:20)
+    at getOutputOptions (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/shared/rollup.js:23860:12)
+    at getOutputOptionsAndPluginDriver (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/shared/rollup.js:23855:12)
+    at handleGenerateWrite (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/shared/rollup.js:23830:74)
+    at write (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/shared/rollup.js:23800:20)
+    at Array.map (<anonymous>)
+    at build (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/bin/rollup:1558:37)
+    at runRollup (/Users/chrisheld/workspace/lerna-test/packages/components/node_modules/rollup/dist/bin/rollup:1668:21)[22m
+
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mLifecycle script `build` failed with error:[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mError: command failed[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m  in workspace: components@0.0.1[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m  at location: /Users/chrisheld/workspace/lerna-test/packages/components[0m 
+[0m
